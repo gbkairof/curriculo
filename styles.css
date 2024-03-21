@@ -1,0 +1,168 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&display=swap');
+
+:root {
+    --border: 0.5rem solid #000000;
+    --font: "Spline Sans Mono", monospace;
+    --font-weight: 700;
+    --quase-branco: #E8DCC2;
+    --alaranjado: #F35933;
+    --amarelo: #F6CB02;
+    --azul: #3A7BA5;
+}
+
+body{
+    box-sizing: border-box;
+    /* background-color: #deb385; */
+    background-color: #F7EFDA;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 2rem;
+    margin-bottom: 0%;
+    height: 100%;
+}
+
+.container__um {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    background-color: var(--alaranjado);
+    width: 60%;
+    height: 35rem;
+    border: var(--border);
+}
+
+.container__um__title {
+    font-family: var(--font);
+    font-weight: var(--font-weight);
+    font-size: 4rem;
+    color: var(--quase-branco);
+}
+
+.container__um__texto {
+    font-family: var(--font);
+    font-weight: var(--font-weight);
+    font-size: 1.5rem;
+    color: var(--quase-branco);
+}
+
+.container__dois {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+    background-color: var(--amarelo);
+    width: 40%;
+    border: var(--border);
+}
+
+.container__dois__foto {
+    width: 12rem;
+    border-radius: 50%;
+    margin: 1.5rem 0 0.5rem;   
+}
+
+.container__dois__title {
+    font-family: var(--font);
+    font-weight: var(--font-weight);
+    font-size: 2.6rem;
+    color: var(--alaranjado);
+}
+
+.container__dois__texto {
+    font-family: var(--font);
+    font-weight: var(--font-weight);
+    font-size: 1.5rem;
+    color: var(--alaranjado);
+}
+
+.container__tres {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    background-color: var(--quase-branco);
+    width: 60%;
+    height: 27rem;
+    border: var(--border);
+}
+
+.container__tres__title {
+    font-family: var(--font);
+    font-weight: var(--font-weight);
+    font-size: 4rem;
+    color: var(--azul);
+}
+
+.container__tres__texto {
+    font-family: var(--font);
+    font-weight: var(--font-weight);
+    font-size: 1.5rem;
+    color: var(--azul);
+}
+
+.container__mini {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.container__quatro {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    background-color: var(--azul);
+    height: 16rem;
+    border: var(--border);
+}
+
+.container__quatro__title {
+    font-family: var(--font);
+    font-weight: var(--font-weight);
+    font-size: 2.5rem;
+    color: var(--amarelo);
+}
+
+.container__quatro__texto {
+    font-family: var(--font);
+    font-weight: var(--font-weight);
+    font-size: 1.2rem;
+    color: var(--amarelo);
+}
+
+.container__cinco {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+    background-color: var(--quase-branco);
+    height: 11rem;
+    border: var(--border);
+}
+
+.container__cinco__title {
+    font-family: var(--font);
+    font-weight: var(--font-weight);
+    font-size: 2rem;
+    color: var(--azul);
+}
+
+.container__cinco__texto {
+    font-family: var(--font);
+    font-weight: var(--font-weight);
+    font-size: 1.1rem;
+    color: var(--azul);
+}
+
